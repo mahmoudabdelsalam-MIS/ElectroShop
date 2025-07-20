@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+header  input{
+    width: 50%;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+header input:focus{
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+header .right-header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.right-header .notifcation:hover {
+    cursor: pointer;
+    transform : scale(1.1);
+}
+
+.right-header .account {
+    background-color: #142a6f;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-header .account:hover{
+    background-color: #0072fbff;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+section {
+    flex: 1;
+   
+}
+aside {
+    width: 150px;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.1);
+}
+
+aside ul {
+    list-style-type: none;
+}
+
+aside ul li {
+    margin: 20px 0px;
+}
+
+aside ul li a{
+   
+    display: flex;
+    align-items: center;
+    color: #2f2f2f;
+    padding: 20px 0px;
+    text-decoration: none;
+}
+
+aside ul li a img {
+    margin: 0px 12px;
+}
+
+aside ul li a:hover{
+    color: #fff;
+   background-color: #2f2f2f;
+
+}
+
+.logout-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2f2f2f;            
+    border: none;              
+    background: none;
+    margin: 20px;               
+    font-size: 16px;           
+    cursor: pointer;               
+}
+
+.logout-btn img {
+    margin-right: 8px;         
+}
+
+.logout-btn:hover {
+    background-color: rgba(47, 47, 47.0.1);
+    transform: scale(1.1);
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card h2 {
+    color: #2f2f2f;
+    margin: 10px 0px; 
+}
+
+.card .growth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    margin: 10px;
+}
+.card .growth p {
+    color: green;
+}
+
+.card:last-child .growth p{
+    color: rgb(209, 61, 61);
+}
+
+.tables {
+    margin: 20px;
+}
+
+.tables h2 {
+    color: #2f2f2f;
+    padding: 10px 0;
+}
+
+.tables table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.tables table thead {
+    background-color: #2f2f2f;
+    color: white;
+}
+
+.tables table th,
+.tables table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.tables table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tables table tbody tr td:last-child {
+    font-weight: bold;
+    color: #2f2f2f;
+}
+
+.tables table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+

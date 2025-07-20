@@ -1,0 +1,130 @@
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    background: #2f2f2f;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    z-index: 100;
+}
+/* Navbar styles */
+.navbar li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+}
+
+li a:hover {
+    background: white;
+    transition: 0.5s;
+    border-radius: 30px;
+}
+
+.navbar a:hover {
+    color: #2F2F2F;
+}
+
+/* Ghanem Ezzat "Start Task" */
+
+/* Shopping Cart styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.shopping-cart {
+    width: 800px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+   
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30PX;    
+} 
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th,
+table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background: #f4f4f4;
+}
+
+.promo-code {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.promo-code input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.promo-code button {
+    padding: 10px 15px;
+    background: #2f2f2f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.promo-code button:hover {
+    background: rgb(41, 41, 41);
+}
+
+.totals {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.checkout-btn {
+    width: 100%;
+    padding: 15px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.checkout-btn:hover {
+    background: #218838;
+}
+/*Ghanem Ezzat "End Task"*/

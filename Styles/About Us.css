@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+  background: #2f2f2f;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  z-index: 100;
+}
+.navbar li {
+  position:relative;
+  list-style: none;
+  display: inline-block;
+  margin: 15px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+}
+
+li a:hover {
+  background: white;
+  transition: 0.5s;
+  border-radius: 30px;
+}
+
+.navbar a:hover {
+  color: #2F2F2F;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 150px;
+}
+
+body {
+  background-color: #ffff;
+  color: #020617;
+}
+
+.about {
+  border: solid 1px #e8e8e8;
+  max-width: 768px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  /* top right bottom left #color */
+
+  /* tablet size */
+  background-color: #f3f3f3;
+  /* margin-left: auto;z
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px; */
+  /* margin: 10px auto 10px auto; */
+  margin: 30px auto;
+  /* top/bottom left/right */
+  padding: 30px;
+  /* all */
+}
+
+.person:hover {
+  background-color: #e8e8e8;
+}
+
+.person {
+  padding: 10px 20px;
+  /* top/bottom left/right */
+  border-radius: 10px;
+  /* add coroner to the card */
+}
+
+/* TODO: remove it  */
+/* .person {
+    display: inline-block;
+} */
+
+.person h1,
+.person p {
+  text-align: center;
+}
+
+.person img {
+  width: 100px;
+  height: 100px;
+}
+
+.container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+}

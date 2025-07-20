@@ -1,0 +1,91 @@
+body{
+background-color:rgba(227, 212, 212);
+background-image: url(../Material/Login/galaxyai_KV_ecosystem_pc.jpg);
+background-size: cover;
+font-family: 'Roboto', sans-serif;
+}
+.SignUp{
+    width: 360px;
+    height: 560px;
+    margin: auto;
+    padding: auto;
+    background-color: rgba(255, 255, 255, 0.614);
+    border-radius: 30px;
+    
+}
+
+@keyframes colors {
+    0%{
+        background-color: blue;
+    }
+    25%{
+        background-color:  green;
+    }
+    50%{
+        background-color: rgb(205, 205, 139);
+    }
+    100%{
+        background-color: red;
+    }
+    
+}
+.login{
+    width: 360px;
+    height: 320;
+    background-color: rgba(255, 255, 255, 0.614);
+    border-radius:30px ;
+    margin: auto;
+    
+    
+    
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+    
+   
+    
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    
+    
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    
+    
+}
+input[type="submit"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    background-color:#49c1a2;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+input[type="submit"]:hover{
+    animation-name: colors;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+

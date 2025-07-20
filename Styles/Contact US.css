@@ -1,0 +1,148 @@
+.body {
+    background-color: F3F3F3;
+
+}
+
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    background: #2f2f2f;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    z-index: 100;
+}
+/* Navbar styles */
+.navbar li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+}
+
+li a:hover {
+    background: white;
+    transition: 0.5s;
+    border-radius: 30px;
+}
+
+.navbar a:hover {
+    color: #2F2F2F;
+}
+
+
+
+
+
+
+
+
+.contact .content {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.contact .content form {
+    flex-basis: 70%;
+
+
+}
+
+.contact .content form .main-input {
+
+    padding: 20px;
+    display: block;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    width: 50%;
+    margin-left: 40%;
+    border-radius: 40px;
+
+
+
+
+}
+
+.contact .content form textarea.main-input {
+
+    height: 100px;
+}
+
+.contact .content form input[ type="submit"] {
+    background-color: #222425;
+    color: white;
+    padding: 20px;
+    border: none;
+    display: flex;
+    margin-left: auto;
+    text-transform: uppercase;
+    margin-left: 60%;
+
+
+
+}
+
+
+p {
+    text-align: center;
+    color: gray;
+    margin-bottom: 50px;
+
+}
+
+.contact .content .info {
+    flex-basis: 25%;
+
+}
+
+.contact .content .info h4 {
+    text-transform: uppercase;
+    margin-top: auto;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
+
+.contact .content .info .phone {
+
+    display: block;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.contact .content .info h4:last-of-type {
+
+    margin-top: 10%;
+
+}
+
+.contact .content .info address {
+
+    color: gray;
+    line-height: 2;
+
+
+
+}
+
+.text1 .text2 {
+    display: inline-block;
+    margin-top: 5%;
+}
