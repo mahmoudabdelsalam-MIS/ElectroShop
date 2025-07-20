@@ -13,8 +13,3 @@ This is a simple electronic devices store website built using HTML and CSS.
  
 - HTML
 - CSS
-
- Author
-
-Mahmoud Abdelsalam
-
